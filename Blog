@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.5">
+    <title>Blog Nycolas</title>
+</head>
+<body>
+<header><h1>Rocket League</h1>
+    <nav>
+        <h2>
+            <ul> Artigos - <br>
+                <li><a href="#Oque"> 1. O que é?</a><br></li>
+                <li><a href="#Dicas"> 2. Dicas básicas</a><br></li>
+                <li><a href="#Modos"> 3. Modos de jogo</a><br></li>
+                <li><a href="#Rank"> 4. Sobre ranks</a><br></li>
+                <br>
+                Social - <br>               
+                <li><a href="#Links">5. Links</a><br></li>
+            </ul>
+        </h2>
+    </nav>
+</header>
+<main>
+    <article>
+        <h2 id="Oque"> 1. O que é Rocket League e por que faz tanto sucesso?
+            <h3>
+                <p>
+                    Rocket League é um jogo que mistura futebol com carros em alta velocidade. Desenvolvido pela Psyonix, ele conquistou milhões de jogadores ao redor do mundo por sua jogabilidade única e divertida. <br><br>
+                    No jogo, duas equipes competem para marcar gols usando carros turbinados. Parece simples, mas a física e os movimentos aéreos tornam tudo mais desafiador. <br><br>
+                    O sucesso do jogo vem da sua acessibilidade (qualquer um pode começar) e da profundidade (dominar exige prática). Além disso, partidas rápidas e cheias de ação fazem com que seja perfeito tanto para jogadores casuais quanto competitivos.
+                </p>
+                <h4>
+                    <time datetime="2026-03-18T17:00">18 de Março
+                    </time>
+                </h4>
+            </h3>
+        </h2>
+    </article> <br><br>
+    
+    <article>
+        <h2 id="Dicas"> 2. Dicas básicas para iniciantes em Rocket League -
+            <h3>
+                <p>
+                    Se você está começando agora em Rocket League, aqui vão algumas dicas importantes:
+    
+        <ul>
+            <li>Não corra atrás da bola o tempo todo: Posicionamento é mais importante que velocidade.</li>
+    
+                <li>Use o boost com inteligência: Evite gastar tudo de uma vez.</li>
+    
+                <li>Treine no modo livre: Isso ajuda a melhorar controle e precisão.</li>
+    
+                <li>Aprenda a defender: Um bom goleiro pode salvar o time.</li>
+        </ul>
+                    Com o tempo, você vai perceber que o jogo é muito mais estratégico do que parece no início.
+                </p>
+                <h4>
+                    <time datetime="2026-03-18T17:00">18 de Março
+                    </time>
+                </h4>
+            </h3>
+        </h2>
+    </article> <br><br>
+    
+    <article>
+        <h2 id="Modos"> 3. Modos de jogo mais populares em Rocket League -
+            <h3>
+                <p> Cada modo exige um estilo diferente de jogo, então vale a pena experimentar todos.
+                    <ul>
+                        <li>1v1 (Duelo): Ideal para melhorar habilidades individuais.</li>
+    
+                        <li>2v2 (Duplas): Equilíbrio entre estratégia e ação.</li>
+    
+                        <li>2v2 (Duplas): Equilíbrio entre estratégia e ação.</li>
+    
+                        <li>Modos extras: Como basquete (Hoops) e hockey (Snow Day).</li>
+                    </ul>
+                    Cada modo exige um estilo diferente de jogo, então vale a pena experimentar todos.
+                </p>
+                <h4>
+                    <time datetime="2026-03-18T17:00">18 de Março
+                    </time>
+                </h4>
+            </h3>
+        </h2>
+    </article> <br><br>
+    
+    <article>
+        <h2 id="Rank"> 4. Como subir de rank em Rocket League?
+            <h3>
+                <p>
+                    Subir de rank em Rocket League pode ser desafiador, mas algumas atitudes ajudam bastante:
+                    <ul>
+                        <li>Jogue em equipe: Passe a bola e confie nos colegas.</li>
+    
+                        <li>Evite erros simples: Como perder bolas fáceis.</li>
+    
+                        <li>Mantenha a calma: Tiltar só atrapalha.</li>
+    
+                        <li>Revise suas partidas: Aprender com erros é essencial.</li>
+                    </ul>
+                    A consistência é a chave. Jogar bem uma partida não basta — é preciso manter um bom desempenho ao longo do tempo.
+                </p>
+                <h4>
+                    <time datetime="2026-03-18T17:00">18 de Março
+                    </time>
+                </h4>
+            </h3>
+        </h2>
+    </article> <br><br>
+</main>
+<footer>
+    <h2 id="Links">
+        Links -
+        <h3>
+            <a href="http://rocketleague.com">Site Oficial</a><br>
+            <a href="http://twitch.tv/rocketleague">Twitch</a><br>
+        </h3>
+    </h2>
+</footer>
+</body>
+</html>
