@@ -1,18 +1,22 @@
-body{background: linear-gradient(45deg, #000000, #440000)}
+body{
+    background: linear-gradient(60deg, #000000, #460000, #000000 );
+}
 
-h1{ 
+h1{
+    letter-spacing: 2px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
-    color: darkred;
-    background-color: rgba(0, 0, 0, 0.651);
+    color: #890000;
+    background: linear-gradient(60deg, #000000, #8b000029, #000000 );
     border: 2px solid #000000;
     border-radius: 15px;
-    padding: 15px;
+    padding: 5px;
 }
 
 nav{
-    background-color: rgba(0, 0, 0, 0.651);
+    background: radial-gradient(#8b000043, #000000 );
+    border: 2px solid #000000;
     border-radius: 15px;
 }
 
@@ -26,27 +30,28 @@ li{
 }
 
 li > a{
-    color: darkred;
+    color: #8b0000;
 }
 
 article{
-    background-color: rgba(0, 0, 0, 0.651);
+    background: radial-gradient(#8b000043, #000000 );
+    border: 2px solid #000000;
     border-radius: 15px;
     padding: 15px
 }
 
 h2{
-    color: blanchedalmond;
+    color: #ffebcd;
 }
 
 h3{
-    color: rgba(245, 220, 220, 0.863);
+    color: #f5dcdcdc;
 }
 
 h4{
-    color: darkred;
+    color: #8b0000;
 }
 
 a{
-    color: darkred;
+    color: #8b0000;
 }
