@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient(60deg, #000000, #460000, #000000 );
 }
@@ -52,6 +56,12 @@ h4{
     color: #8b0000;
 }
 
-a{
+a {
     color: #8b0000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffebcd;
+    text-decoration: underline;
 }
