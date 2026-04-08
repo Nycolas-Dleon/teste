@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2c3c3de;
+    color: #6b4444;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #af7b7b;
+    color: #f2c3c3de;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    border-bottom: 2px solid #6b4444;
+    color: #814848;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #412121;
+}
+
+h3 p{
+    color: #412121;
+}
+
+p.ocupacao{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+div.container{
+    width: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+div.card{
+    background-color: #4121219b;
+    border: 2px solid #6b4444;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+section.sobre{
+    margin-bottom: 2rem;
+}
+
+section.habilidades{
+    margin-bottom: 2rem;
+}
+
+section.projetos{
+    margin-bottom: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: 2px solid #814848;
+    border-radius: 20px;
+    background-color: #8148486b;
+    display: inline-block;
+    padding: 0.4rem;
+    margin: 0.2rem;
+}
+li.destaque{
+    font-weight: bolder;
+    color: #f2c3c3de;
+    background-color: #814848;
+    border-color: #412121;
+}
