@@ -1,7 +1,3 @@
-html{
-    scroll-behavior: smooth;
-}
-
 body{
     background: linear-gradient(60deg, #000000, #460000, #000000 );
 }
@@ -28,13 +24,20 @@ ul{
     font-size: 30px;
 }
 
-li{
+ul.Lista_Paragrafo > li{
+    color: #f5dcdcdc;
     list-style-type: circle;
     font-size: 20px;
 }
 
-li > a{
+ul.Guia_Pagina li{
     color: #8b0000;
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+ul.Guia_Pagina li:hover{
+    color: #ffebcd;
 }
 
 article{
@@ -45,18 +48,23 @@ article{
 }
 
 h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffebcd;
 }
 
-h3{
+.Paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
     color: #f5dcdcdc;
 }
 
 h4{
+    font-family: Arial, Helvetica, sans-serif;
     color: #8b0000;
 }
 
 a {
+    font-family: Arial, Helvetica, sans-serif;
     color: #8b0000;
     text-decoration: none;
 }
