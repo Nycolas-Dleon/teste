@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2c3c3de;
-    color: #6b4444;
+    background-color: #e9e3e7;
+    color: #234040;
     margin: 0;
     padding: 0;
 }
@@ -11,8 +11,8 @@ a{
 }
 
 header{
-    background-color: #af7b7b;
-    color: #f2c3c3de;
+    background-color: #0e1c1c;
+    color: #e9e3e7;
     text-align: center;
     padding: 2rem;
 }
@@ -22,18 +22,19 @@ h1{
 }
 
 h2{
-    border-bottom: 2px solid #6b4444;
-    color: #814848;
+    text-align: center;
+    border-bottom: 2px solid #908c8a;
+    color: #0e1c1c;
 }
 
 h3{
     font-size: 1.2rem;
     font-weight: bolder;
-    color: #412121;
+    color: #234040;
 }
 
 h3 p{
-    color: #412121;
+    color: #234040;
 }
 
 p.ocupacao{
@@ -50,42 +51,99 @@ div.container{
 }
 
 div.card{
-    background-color: #4121219b;
-    border: 2px solid #6b4444;
+    background-color: #234040;
+    border: 2px solid #0e1c1c;
     border-radius: 15px;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 
-section.sobre{
+div.card h3{
+    color: #e9e3e7;
+}
+
+div.card p{
+    color: #e9e3e7;
+}
+
+a.card-link{
+    color: #e9e3e7;
+    background-color: #49716e;
+    border: 2px solid #0e1c1c;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+#sobre{
     margin-bottom: 2rem;
 }
 
-section.habilidades{
+#sobre p{
+    text-align: center;
+    font-size: 1.2rem
+}
+
+#habilidades{
     margin-bottom: 2rem;
 }
 
-section.projetos{
+#projetos{
     margin-bottom: 2rem;
+}
+
+#contato{
+    text-align: center;
+}
+
+button.btn-contato{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    background-color: #234040;
+    color: #e9e3e7;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button.btn-contato:hover{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    background-color: #908c8a94;
+    color: #234040;
+    border: 1px solid #0e1c1c;
 }
 
 ul{
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
     list-style: none;
 }
 
 li{
     font-weight: 600;
     font-size: 1.4rem;
-    border: 2px solid #814848;
+    border: 2px solid #0e1c1c7e;
     border-radius: 20px;
-    background-color: #8148486b;
+    background-color: #49716e81;
     display: inline-block;
     padding: 0.4rem;
     margin: 0.2rem;
 }
 li.destaque{
     font-weight: bolder;
-    color: #f2c3c3de;
-    background-color: #814848;
-    border-color: #412121;
+    color: #e9e3e7;
+    background-color: #49716e;
+    border-color: #0e1c1c;
+}
+
+footer{
+    font-size: 0.85rem;
+    background-color: #0e1c1c;
+    color: #e9e3e7;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
