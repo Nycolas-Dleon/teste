@@ -10,7 +10,7 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    background: linear-gradient(10deg, #303670, #ffffff8f);
+    background: linear-gradient(10deg, #213A57, #0c0c0c);
     margin: 0;
     padding: 0;
 }
@@ -19,44 +19,75 @@ main{
     padding: 1rem;
     margin: 2rem;
     margin-bottom: 2rem;
-    background-color: #c9bbb25f;
+    background-color: #0c0c0c98;
     border-radius: 15px;
-    border: 2px, solid, #86b0ff;
+    border: 1px, solid, #00D4FF;
     font-size: 1.5rem;
 }
 
+hr{
+    border: none;
+    height: 1px;
+    background-color: #00D4FF;
+}
+
 #titulo{
-    color: #86b0ff;
     font-family: Nuit;
     font-size: 12rem;
     margin-bottom: 0;
     text-align: center;
+    color: #007bff;
 }
 
 h3{
-    color: #303670;
+    color: #2E5BFF;
     font-family: Nexa;
     font-size: 3rem;
     margin-top: 0;
     text-align: center; 
-    text-decoration: underline 2px #86b0ff;
+    text-decoration: underline 1px #00D4FF;
 }
 
 p.intro{
+    margin: 0;
+    padding: 1rem;
+    font-family: Nexa;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    color: #00d5ffd5;
 }
 
-.principal{
-    text-align: justify;
-    font-weight: bold;
+div.sobre{
+    margin: 1rem;
     padding: 1rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    background: radial-gradient(#0c0c0ce7) ;
     border-radius: 10px;
-    background-color: #c9bbb2;
-    color: #2F1D13;
+    border: 1px solid #00D4FF;
 }
+
+.sobre h2{
+    margin: 1rem;
+    padding: 0;
+    font-family: Nuit;
+    font-size: 5rem;
+    color: #007BFF;
+}
+
+.sobre p{
+    text-align: center;
+    font-family: Nexa;
+    font-size: 2rem;
+    color: #303670;
+}
+
+
+
+
+
+
+
+
 
 footer{
     font-size: 1.5rem;
@@ -70,8 +101,3 @@ footer{
     padding: 0.1rem;
 }
 
-hr{
-    border: none;
-    height: 1px;
-    background-color: #86b0ff;
-}
