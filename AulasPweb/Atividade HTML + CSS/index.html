@@ -10,10 +10,46 @@
 <body>
     <header>
         <h1 id="titulo">Nikola Tesla</h1>
-        <h3>O gênio visionário que revolucionou a eletricidade</h3>
+        <h3>O gênio da eletricidade moderna</h3>
     </header>
 
+    <nav> 
+        <button id="botao1">
+            <a href="#topico1">
+            <img src="misc/images/botao-de-informacao.png" alt="Sobre">   
+            </a>
+        </button>
+        
+        <button id="botao2">
+            <a href="#topico2"> 
+            <img src="misc/images/simbolo-da-mao-polegar-para-cima.png" alt="Contribuições">
+            </a>
+        </button>
+        
+        <button id="botao3">
+            <a href="#topico3"> 
+            <img src="misc/images/sombra-do-relampago.png" alt="Guerra das Correntes">
+            </a>
+        </button>
+        
+        <button id="botao4">
+            <a href="#topico4"> 
+            <img src="misc/images/trofeu.png" alt="Legado">
+            </a>
+        </button>
+        
+        <button id="botao5">
+            <a href="#topico5"> 
+            <img src="misc/images/estrela.png" alt="Curiosidades">
+            </a>
+        </button>
+    </nav>
+
     <main>
+        <figure id="foto">
+            <img src="misc/images/Nikola Tesla.jpg" alt="Nikola Tesla">
+            <figcaption>Nikola Tesla - Fotografia de Napoleon Sarony, circa 1890.</figcaption>
+        </figure>
         <p class=" intro"> 
             Nikola Tesla foi um inventor, engenheiro elétrico e físico que desempenhou um papel fundamental no desenvolvimento da eletricidade moderna.
         <br>
@@ -22,7 +58,7 @@
         </p>
 
     <div class="sobre">
-        <h2>Sobre -</h2>
+        <h2 id="topico1">Sobre -</h2>
         <article>
             <p>Nikola Tesla nasceu em 10 de julho de 1856, na região que hoje corresponde à Croácia. Desde jovem, demonstrou habilidades excepcionais em matemática e física, além de uma memória fotográfica impressionante.
                 <br><br>
@@ -33,19 +69,19 @@
     </div>
 
     <section class="contribuicoes">
-        <h2>Principais Contribuições</h2>
+        <h2 id="topico2">Principais Contribuições -</h2>
         <ul id="lista-contrib">
             <li><strong>Corrente Alternada (AC):</strong>
             Tesla foi um dos principais responsáveis pelo desenvolvimento do sistema de corrente alternada, que se tornou o padrão mundial para distribuição de energia elétrica.</li>
-            <li><strong>Bobina de Tesla:</strong>Um dispositivo capaz de gerar altas tensões e frequências, utilizado até hoje em pesquisas científicas e demonstrações.</li>
-            <li><strong>Transmissão sem fio de energia:</strong>Tesla sonhava com um mundo onde a energia pudesse ser transmitida sem fios, um conceito que influenciou tecnologias modernas como o Wi-Fi.</li>
-            <li><strong>Motor de indução:</strong>Uma de suas invenções mais importantes, amplamente utilizada em eletrodomésticos e indústrias.</li>
+            <li><strong>Bobina de Tesla: </strong>Um dispositivo capaz de gerar altas tensões e frequências, utilizado até hoje em pesquisas científicas e demonstrações.</li>
+            <li><strong>Transmissão sem fio de energia: </strong>Tesla sonhava com um mundo onde a energia pudesse ser transmitida sem fios, um conceito que influenciou tecnologias modernas como o Wi-Fi.</li>
+            <li><strong>Motor de indução: </strong>Uma de suas invenções mais importantes, amplamente utilizada em eletrodomésticos e indústrias.</li>
         </ul>
     </section>
 
     <div class="guerra-corrente">
         <article>
-            <h2>A Guerra das Correntes</h2>
+            <h2 id="topico3">A Guerra das Correntes -</h2>
             <p>Nikola Tesla esteve no centro de uma disputa histórica com Thomas Edison, conhecida como a “Guerra das Correntes”. Enquanto Edison defendia o uso da corrente contínua (DC), Tesla apoiava a corrente alternada (AC), que se mostrou mais eficiente para transmissão de energia a longas distâncias.
                 <br><br>
             Essa disputa marcou a história da eletricidade e consolidou Tesla como um dos maiores inovadores de seu tempo.</p>
@@ -54,7 +90,7 @@
 
     <div class="legado">
         <article>
-            <h2>Legado e Impacto</h2>
+            <h2 id="topico4">Legado e Impacto -</h2>
             <p>Apesar de não ter recebido o devido reconhecimento em vida, Nikola Tesla é hoje considerado um dos maiores gênios da história da ciência.
                 <br><br>
             Seu nome foi homenageado em diversas áreas, incluindo a unidade de medida do campo magnético (tesla) e empresas modernas de tecnologia. Suas ideias continuam inspirando cientistas, engenheiros e inovadores ao redor do mundo.</p>
@@ -62,8 +98,8 @@
     </div>
     <hr>
     <section class="curiosidades">
-        <h2>Curiosidades</h2>
-        <ul>
+        <h2 id="topico5">Curiosidades -</h2>
+        <ul id="lista-curiosidades">
             <li>Tesla falava vários idiomas, incluindo sérvio, inglês, francês e alemão.</li>
             <li>Ele tinha hábitos peculiares e era conhecido por sua obsessão por números, especialmente o número 3.</li>
             <li>Trabalhou brevemente com Thomas Edison antes de se tornarem rivais.</li>
@@ -84,11 +120,3 @@
     </footer>
 </body>
 </html>
-
-<!-- <figure>
-    <img src="" alt="">
-    <figcaption></figcaption>
-</figure> -->
-
-
-
