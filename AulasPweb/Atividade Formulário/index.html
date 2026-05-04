@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição Evento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="/inscrição" method="post">
+        <fieldset class="info">
+            <legend>Informações Básicas</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="email@seuemail.com" required>
+            <label for="telefone">Telefone: </label>
+            <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(xx) xxxxx-xxxx" required>
+            <label for="data">Data de Nascimento: </label>
+            <input type="date" name="data" id="data" required>
+        </fieldset>
+
+        <fieldset class="ingresso">
+            <legend>Tipo de Ingresso (Escolha Única)</legend>
+            <label id="radio">
+                <label>
+                    <input type="radio" name="tipo" value="vip">VIP
+                </label>
+                <label>
+                    <input type="radio" name="tipo" value="regular">Regular
+                </label>
+                <label>
+                    <input type="radio" name="tipo" value="estudante">Estudante
+                </label>
+            </label>
+
+            <label> Quantidade de Ingressos: 
+                <input type="number" name="quantidade" min="1" max="5" required>
+            </label>
+        </fieldset>
+
+        <fieldset class="categ">
+            <legend>Categorias de Interesse (Múltipla Escolha)</legend>
+            <label id="container_checkbox">
+                <label>
+                    <input type="checkbox" name="categoria" value="musica">Música
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="tecnologia">Tecnologia
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="arte">Artes
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="esporte">Esportes
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="musica">Cinema
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="tecnologia">Literatura
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="arte">História
+                </label>
+                <label>
+                    <input type="checkbox" name="categoria" value="esporte">Matemática
+                </label>
+            </label>
+            
+        </fieldset>
+
+        <fieldset class="coments">
+            <legend>Comentários Adicionais</legend>
+            <textarea name="comentarios" id="comentarios" rows="4" cols="40"></textarea>
+        </fieldset>
+
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="cancelar">Cancelar</button>
+        
+    </form>
+
+</body>
+</html>
